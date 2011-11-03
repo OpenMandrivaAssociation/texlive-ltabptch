@@ -1,3 +1,9 @@
+# revision 17533
+# category Package
+# catalog-ctan /macros/latex/contrib/ltabptch
+# catalog-date 2010-03-07 16:35:25 +0100
+# catalog-license lppl
+# catalog-version 1.74d
 Name:		texlive-ltabptch
 Version:	1.74d
 Release:	1
@@ -40,6 +46,7 @@ applies to version 4.11 of longtable.
 %doc %{_texmfdistdir}/doc/latex/ltabptch/ltabptch.pdf
 %doc %{_texmfdistdir}/doc/latex/ltabptch/ltabptch.tex
 %doc %{_texmfdistdir}/doc/latex/ltabptch/ltabtest.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -50,3 +57,5 @@ applies to version 4.11 of longtable.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
