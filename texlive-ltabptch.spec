@@ -6,7 +6,7 @@
 # catalog-version 1.74d
 Name:		texlive-ltabptch
 Version:	1.74d
-Release:	1
+Release:	2
 Summary:	Bug fix for longtable
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ltabptch
