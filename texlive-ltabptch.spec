@@ -47,3 +47,17 @@ applies to version 4.11 of longtable.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.74d-2
++ Revision: 753572
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.74d-1
++ Revision: 718909
+- texlive-ltabptch
+- texlive-ltabptch
+- texlive-ltabptch
+- texlive-ltabptch
+
