@@ -1,6 +1,6 @@
 Name:		texlive-ltabptch
 Version:	17533
-Release:	1
+Release:	2
 Summary:	Bug fix for longtable
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ltabptch
