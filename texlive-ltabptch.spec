@@ -3,7 +3,7 @@ Version:	17533
 Release:	2
 Summary:	Bug fix for longtable
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ltabptch
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ltabptch
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ltabptch.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ltabptch.doc.r%{version}.tar.xz
